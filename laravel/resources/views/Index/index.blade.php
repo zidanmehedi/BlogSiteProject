@@ -6,28 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title | A Perfect Place For Your Career</title>
-    <link rel="icon" href="images/arrow.png">
+    <link rel="icon" href="{{asset('images/arrow.png')}}">
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <!-- signin-bar-plugin-css -->
-    <link rel="stylesheet" href="css/signup-plugin-css/style.css">
+    <link rel="stylesheet" href='{{asset("css/signup-plugin-css/style.css")}}'>
     <!-- google fonts css -->
     <link
         href="https://fonts.googleapis.com/css?family=Courgette|EB+Garamond:400,500,600,700,800|Lato:100,300,400,700,900|Open+Sans:300,400,600,700,800|Oleo+Script:400,700&display=swap&display=swap"
         rel="stylesheet">
     <!-- font awesome css -->
-    <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css">
+    <link rel="stylesheet" href='{{asset("fontawesome-free-5.9.0-web/css/all.min.css")}}'>
     <!-- slick slider css -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="{{asset('css/slick.css')}}">
     <!-- progress bar css -->
-    <link rel="stylesheet" href="css/progress-bar/style.css">
+    <link rel="stylesheet" href='{{asset("css/progress-bar/style.css")}}'>
     <!-- animation css -->
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href='{{asset("css/animate.min.css")}}'>
     <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='{{asset("css/style.css")}}'>
     <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href='{{asset("css/responsive.css")}}'>
 
 </head>
 
@@ -228,7 +228,7 @@
         <div class="next"><i class="fas fa-chevron-right " aria-hidden="true"></i></div>
 
         <div class="banner-part">
-            <div class="banner-img" style="background: url(images/computer-2048166_1280.jpg) no-repeat center;">
+            <div class="banner-img" style="background: url(/images/computer-2048166_1280.jpg) no-repeat center;">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-sm-10">
@@ -251,7 +251,7 @@
                 </div>
             </div>
 
-            <div class="banner-img" style="background: url(images/student-849822_1280.jpg) no-repeat center">
+            <div class="banner-img" style="background: url(/images/student-849822_1280.jpg) no-repeat center">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-sm-10">
@@ -274,7 +274,7 @@
                 </div>
             </div>
 
-            <div class="banner-img" style="background: url(images/agreement-3489902_1280.jpg) no-repeat center">
+            <div class="banner-img" style="background: url(/images/agreement-3489902_1280.jpg) no-repeat center">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-sm-10">
@@ -307,7 +307,7 @@
             <div class="row">
                 <div class="col-lg-6 col-8 col-sm-4 col-md-5">
                     <div class="about-left-image wow zoomIn">
-                        <img src="images/analytics-2697949_1280.jpg" alt="image">
+                        <img src="{{asset('images/analytics-2697949_1280.jpg')}}" alt="image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 col-sm-8 col-md-7">
@@ -344,7 +344,7 @@
                 </div>
                 <div class="col-lg-6 pt-5 col-8 col-sm-4 col-md-5 no-padd">
                     <div class="about-left-image wow zoomIn">
-                        <img src="images/banner-3.jpg" alt="image">
+                        <img src="{{asset('images/banner-3.jpg')}}" alt="image">
                     </div>
                 </div>
             </div>
@@ -448,7 +448,7 @@
         <div class="container">
             <div class="pt-5 filtr-container wow zoomIn">
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="1, 5, 3">
-                    <img src="images/analytics-2697949_1280.jpg" class="w-100" alt="">
+                    <img src="{{asset('images/analytics-2697949_1280.jpg')}}" class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -457,7 +457,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="2, 5, 3, 1">
-                    <img src="images/analyzing-people-3441040_1280.jpg" class="w-100" alt="">
+                    <img src="{{asset('images/analyzing-people-3441040_1280.jpg')}}" class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -466,7 +466,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="4">
-                    <img src="images/computer-2048166_1280.jpg" class="w-100" alt="">
+                    <img src='{{asset("images/computer-2048166_1280.jpg")}}' class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -475,7 +475,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="3, 5">
-                    <img src="images/student-849822_1280.jpg" class="w-100" alt="">
+                    <img src='{{asset("images/student-849822_1280.jpg")}}' class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -484,7 +484,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="2">
-                    <img src="images/testimonial-bg.jpg" class="w-100" alt="">
+                    <img src='{{asset("images/testimonial-bg.jpg")}}' class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -493,7 +493,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="1, 5">
-                    <img src="images/comments_img.jpg" class="w-100" alt="">
+                    <img src='{{asset("images/comments_img.jpg")}}' class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -502,7 +502,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="3, 4">
-                    <img src="images/w7.jpg" class="w-100" alt="">
+                    <img src='{{asset("images/w7.jpg")}}' class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -511,7 +511,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-sm-4 col-md-3 p-1  work_img filtr-item" data-category="1">
-                    <img src="images/skill_img.jpg" class="w-100" alt="">
+                    <img src='{{asset("images/skill_img.jpg")}}' class="w-100" alt="">
                     <div class="work-fill text-center">
                         <div class="work-ovrly">
                             <h3>project title</h3>
@@ -544,7 +544,7 @@
                     <div class="col-lg-3 col-12">
                         <div class="monial-body text-center">
                             <div class="monial-img">
-                                <img src="images/monial-2.png" alt="missing">
+                                <img src='{{asset("images/monial-2.png")}}' alt="missing">
                             </div>
                             <h2 title="Click To Know More"><a href="#">jacob m.</a></h2>
                             <h3>managing director</h3>
@@ -555,7 +555,7 @@
                     <div class="col-lg-3 col-12">
                         <div class="monial-body text-center">
                             <div class="monial-img">
-                                <img src="images/monial-2.png" alt="missing">
+                                <img src='{{asset("images/monial-2.png")}}' alt="missing">
                             </div>
                             <h2 title="Click To Know More"><a href="#">jacob m.</a></h2>
                             <h3>managing director</h3>
@@ -566,7 +566,7 @@
                     <div class="col-lg-3 col-12">
                         <div class="monial-body text-center">
                             <div class="monial-img">
-                                <img src="images/monial-1.png" alt="missing">
+                                <img src='{{asset("images/monial-1.png")}}' alt="missing">
                             </div>
                             <h2 title="Click To Know More"><a href="#">ramika san</a></h2>
                             <h3>chairman</h3>
@@ -577,7 +577,7 @@
                     <div class="col-lg-3 col-12">
                         <div class="monial-body text-center">
                             <div class="monial-img">
-                                <img src="images/monial-3.png" alt="missing">
+                                <img src='{{asset("images/monial-3.png")}}' alt="missing">
                             </div>
                             <h2 title="Click To Know More"><a href="#">mrs. amily ava</a></h2>
                             <h3>producer</h3>
@@ -588,7 +588,7 @@
                     <div class="col-lg-3 col-12">
                         <div class="monial-body text-center">
                             <div class="monial-img">
-                                <img src="images/monial-3.png" alt="missing">
+                                <img src='{{asset("images/monial-3.png")}}' alt="missing">
                             </div>
                             <h2 title="Click To Know More"><a href="#">mrs. amily ava</a></h2>
                             <h3>producer</h3>
@@ -623,7 +623,7 @@
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-img-top">
-                                    <img src="images/student-849822_1280.jpg" alt="missing">
+                                    <img src='{{asset("images/student-849822_1280.jpg")}}' alt="missing">
                                     <div class="img_overlay">
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
@@ -641,7 +641,7 @@
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-img-top">
-                                    <img src="images/business-3152586_1280.jpg" alt="missing">
+                                    <img src='{{asset("images/business-3152586_1280.jpg")}}' alt="missing">
                                     <div class="img_overlay">
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
@@ -659,7 +659,7 @@
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-img-top">
-                                    <img src="images/banner-3.jpg" alt="missing">
+                                    <img src='{{asset("images/banner-3.jpg")}}' alt="missing">
                                     <div class="img_overlay">
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
@@ -677,7 +677,7 @@
                         <div class="col-lg-4">
                             <div class="card">
                                 <div class="card-img-top">
-                                    <img src="images/banner-2.jpg" alt="missing">
+                                    <img src='{{asset("images/banner-2.jpg")}}' alt="missing">
                                     <div class="img_overlay">
                                         <a href="#"><i class="fas fa-link"></i></a>
                                     </div>
@@ -914,7 +914,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/amazon_PNG25.webp" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/amazon_PNG25.webp")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -923,7 +923,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/cocacola_logo_PNG8.png" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/cocacola_logo_PNG8.png")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -932,7 +932,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/adidas_PNG12.webp" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/adidas_PNG12.webp")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -941,7 +941,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/intel_PNG24.png" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/intel_PNG24.png")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -950,7 +950,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/nike_PNG10.webp" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/nike_PNG10.webp")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -959,7 +959,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/webmoney_PNG12.webp" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/webmoney_PNG12.webp")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -968,7 +968,7 @@
                     <div class="col-lg-2">
                         <div class="inner-company">
                             <div class="inner-img-box">
-                                <a href="#"><img src="images/walt_disney_PNG34.webp" alt="brand"></a>
+                                <a href="#"><img src='{{asset("images/walt_disney_PNG34.webp")}}' alt="brand"></a>
                             </div>
                             <p>onsectetur adipisicing elit, sedo eiusmod tempor.
                             </p>
@@ -1001,7 +1001,7 @@
                 <div class="col-lg-3 col-6">
                     <div class="plan-box">
                         <span>free trial</span>
-                        <img src="images/bag.svg" alt="">
+                        <img src='{{asset("images/bag.svg")}}' alt="">
                         <ul>
                             <span>$ <b>9.00</b>/month </span>
                             <li>number one</li>
@@ -1018,7 +1018,7 @@
                 <div class="col-lg-3 col-6">
                     <div class="plan-box">
                         <span>beginner</span>
-                        <img src="images/beach.svg" alt="">
+                        <img src='{{asset("images/beach.svg")}}' alt="">
                         <ul>
                             <span>$ <b>19.99</b>/month </span>
                             <li>number one</li>
@@ -1035,7 +1035,7 @@
                 <div class="col-lg-3 col-6">
                     <div class="plan-box">
                         <span>Standard</span>
-                        <img src="images/barrel.svg" alt="">
+                        <img src='{{asset("images/barrel.svg")}}' alt="">
                         <ul>
                             <span>$ <b>39.31</b>/month </span>
                             <li>number one</li>
@@ -1052,7 +1052,7 @@
                 <div class="col-lg-3 col-6">
                     <div class="plan-box">
                         <span>Premimum</span>
-                        <img src="images/wagon.svg" alt="">
+                        <img src='{{asset("images/wagon.svg")}}' alt="">
                         <ul>
                             <span>$ <b>49.99</b>/month </span>
                             <li>number one</li>
@@ -1142,34 +1142,34 @@
 
 
     <!-- jquery parts -->
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
+    <script src='{{asset("js/jquery-1.12.4.min.js")}}'></script>
+    <script src='{{asset("js/popper.min.js")}}'></script>
     <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src='{{asset("js/bootstrap.min.js")}}'></script>
     <!-- signin-bar-plugin-js -->
-    <script src="js/placeholders.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src='{{asset("js/placeholders.min.js")}}'></script>
+    <script src='{{asset("js/main.js")}}'></script>
     <!-- font awesome js -->
-    <script src="fontawesome-free-5.9.0-web/js/all.min.js"></script>
+    <script src='{{asset("fontawesome-free-5.9.0-web/js/all.min.js")}}'></script>
     <!-- waypoint js -->
-    <script src="js/waypoints.min.js"></script>
+    <script src='{{asset("js/waypoints.min.js")}}'></script>
     <!-- counter js -->
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src='{{asset("js/jquery.counterup.min.js")}}'></script>
     <!-- calender js -->
-    <script src="js/calender.js"></script>
+    <script src='{{asset("js/calender.js")}}'></script>
     <!-- slick js -->
-    <script src="js/slick.min.js"></script>
+    <script src='{{asset("js/slick.min.js")}}'></script>
     <!-- filterizer js -->
-    <script src="js/jquery.filterizr.min.js"></script>
+    <script src='{{asset("js/jquery.filterizr.min.js")}}'></script>
     <!-- wow js -->
-    <script src="js/wow.min.js"></script>
+    <script src='{{asset("js/wow.min.js")}}'></script>
     <!-- progress bar js -->
-    <script src="js/jquery.barfiller.js"></script>
+    <script src='{{asset("js/jquery.barfiller.js")}}'></script>
     <!-- animation js -->
-    <script src="js/anijs-min.js"></script>
-    <script src="js/anijs-helper-scrollreveal-min.js"></script>
+    <script src='{{asset("js/anijs-min.js")}}'></script>
+    <script src='{{asset("js/anijs-helper-scrollreveal-min.js")}}'></script>
     <!-- main js -->
-    <script src="js/script.js"></script>
+    <script src='{{asset("js/script.js")}}'></script>
 </body>
 
 </html>
